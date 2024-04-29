@@ -1,0 +1,52 @@
+@media screen and (max-width: 1000px ) {
+
+    html,body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .maincontainer{
+ 
+        width: 100vw;
+        overflow-x: hidden;
+
+    }
+    .navcontainer{
+        height:auto;
+        width: 100%;
+        
+        background-color: #DCDCDC;
+
+        overflow: none;
+        color: 	#262525;
+
+    }
+    nav {
+        font-size: 5vw;
+        
+    }
+    #navlogo{
+        padding-left:2% ;
+        font-size: 6vw;
+       }
+       #navright{
+        font-size: 3vw;
+        padding-right: 4vw;
+    
+        display: flex;
+        gap: 11%;
+        /* display: none; */
+       }
+    
+       #navright a{
+        display: none;
+       }
+    
+       #navright i{
+        display: block;
+        font-size: 5vw;
+       }
+  
+
+
+
+}
